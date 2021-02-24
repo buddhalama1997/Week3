@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package pkg1;
-
+import java.util.Scanner;
 /**
  *
  * @author admin
@@ -13,5 +13,10 @@ package pkg1;
 public class BasicIO {
     public void print(String msg){
         System.out.println(msg);
+    }
+    
+    public String readString(){
+        //read string from keyboard
+        return new Scanner(System.in).nextLine();
     }
 }
