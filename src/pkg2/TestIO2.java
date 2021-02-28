@@ -38,6 +38,5 @@ public class TestIO2 {
         io.print("Num1 "+num1);
         io.print("Num2 "+num2);
         io.print("SUM "+c2.getNum3());
-        
     }
 }

@@ -19,4 +19,16 @@ public class BasicIO {
         //read string from keyboard
         return new Scanner(System.in).nextLine();
     }
+    public char readChar(){
+        return readString().charAt(0);
+    }
+    public int readInteger(){
+        return Integer.parseInt(readString());
+    }
+    public void printString(String message){
+        System.out.print(message);
+    }
+    public void newLine(){
+        System.out.println();
+    }
 }

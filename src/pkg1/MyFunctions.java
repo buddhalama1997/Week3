@@ -30,10 +30,13 @@ public class MyFunctions {
         return num1+num2;
     }
     
+    public void displayMainMenu(){
+        System.out.println("Main Menu ------------------");
+        System.out.println("1. ADD");
+        System.out.println("2. SUB");
+        System.out.println("3. PRD");
+        System.out.println("4. DIV");
+        System.out.println("---------------------------------");
+    }
+    
 }
-
-
-
-
-
-
